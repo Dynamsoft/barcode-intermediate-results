@@ -16,6 +16,11 @@ The C/C++ sample demonstrates how to get grayscale image, binary image, and pred
 - [Dynamsoft Barcode Reader 8.0](https://www.dynamsoft.com/Downloads/Dynamic-Barcode-Reader-Download.aspx)
 
 ## How to Build and Run
+Before building the project, you need to get a [trial license](https://www.dynamsoft.com/customer/license/trialLicense) and update the following code:
+
+```cpp
+ret = reader.InitLicense("LICENSE-KEY");
+```
 
 ### Windows
 

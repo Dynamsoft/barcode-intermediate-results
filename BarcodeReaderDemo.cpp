@@ -306,7 +306,8 @@ int main(int argc, const char* argv[])
 	printf("Hints: Please input 'Q' or 'q' to quit the application.\r\n");
 
 	CBarcodeReader reader;
-	ret = reader.InitLicense("t0068MgAAAE7hzRvYoVOZtakQoe3BLmy/htjgM6iwvYCqx2FO2Oat5oL+4GqfuzVhqqMbLjR8kyModftM/OiEfigg8fOgh0s=");
+	// Get a free trial license from https://www.dynamsoft.com/customer/license/trialLicense
+	ret = reader.InitLicense("LICENSE-KEY");
 
 	while (1)
 	{
